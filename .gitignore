@@ -15,3 +15,7 @@ npm-debug.log*
 .idea/
 .vscode/
 *.sublime-*
+
+# macOS zip metadata
+__MACOSX*
+._*
