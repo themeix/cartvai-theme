@@ -78,10 +78,22 @@ All code, styles, and assets are licensed under GPLv2 or later, or a compatible 
 
 * Screenshot (screenshot.png)
   Description: Capture of the Cartvai theme homepage design. The product photographs
-  shown inside the screenshot are royalty-free stock photos.
+  shown inside the screenshot are royalty-free stock photos from PxHere.
   Source: PxHere (https://pxhere.com)
   License: CC0 1.0 Universal (Public Domain Dedication)
   License URL: https://creativecommons.org/publicdomain/zero/1.0/
+  Image sources:
+  - https://pxhere.com/en/photo/634760
+  - https://pxhere.com/en/photo/713266
+  - https://pxhere.com/en/photo/896277
+  - https://pxhere.com/en/photo/701317
+  - https://pxhere.com/en/photo/1159642
+  - https://pxhere.com/en/photo/561059
+  - https://pxhere.com/en/photo/561406
+  - https://pxhere.com/en/photo/561050
+  - https://pxhere.com/en/photo/73405
+  - https://pxhere.com/en/photo/151913
+  - https://pxhere.com/en/photo/681409
   Notes: CC0 images require no attribution; credited here for transparency.
   All layout, text, branding, and UI elements in the screenshot are the theme
   author's own work (GPLv2 or later), not AI-generated.
