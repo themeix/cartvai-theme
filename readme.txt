@@ -75,3 +75,13 @@ All code, styles, and assets are licensed under GPLv2 or later, or a compatible 
   Author: Tailwind Labs
   Source: https://heroicons.com/
   License: MIT License (https://opensource.org/licenses/MIT)
+
+* Screenshot (screenshot.png)
+  Description: Capture of the Cartvai theme homepage design. The product photographs
+  shown inside the screenshot are royalty-free stock photos.
+  Source: PxHere (https://pxhere.com)
+  License: CC0 1.0 Universal (Public Domain Dedication)
+  License URL: https://creativecommons.org/publicdomain/zero/1.0/
+  Notes: CC0 images require no attribution; credited here for transparency.
+  All layout, text, branding, and UI elements in the screenshot are the theme
+  author's own work (GPLv2 or later), not AI-generated.
