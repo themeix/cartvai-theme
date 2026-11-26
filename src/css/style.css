@@ -2920,6 +2920,33 @@ hr.wp-block-separator,
   color: #2563eb;
 }
 
+.cv-trust-icon--green {
+  background: #ecfdf5;
+  color: #059669;
+}
+
+.cv-trust-icon--orange {
+  background: #fff7ed;
+  color: #ea580c;
+}
+
+.cv-trust-icon--purple {
+  background: #f5f3ff;
+  color: #7c3aed;
+}
+
+.cv-trust-card__title {
+  font-size: 0.9375rem;
+  font-weight: 800;
+  margin: 0 0 0.15rem 0;
+}
+
+.cv-trust-card__desc {
+  font-size: 0.8125rem;
+  color: #64748b;
+  margin: 0;
+}
+
 /* Promo Duo Cards */
 .cv-promo-duo-card {
   border-radius: 1.25rem;
@@ -2929,6 +2956,15 @@ hr.wp-block-separator,
   border: 1px solid #e2e8f0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
   transition: all 0.2s ease;
+  background: #ffffff;
+}
+
+.cv-promo-duo-card--blue {
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+}
+
+.cv-promo-duo-card--red {
+  background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
 }
 
 .cv-promo-duo-card:hover {

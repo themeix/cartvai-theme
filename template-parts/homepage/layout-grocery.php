@@ -175,7 +175,7 @@ $cartvai_trust_enabled = (bool) cartvai_theme_option( 'homepage_trust_enabled', 
 				</div>
 
 				<div class="cv-trust-card">
-					<div class="cv-trust-icon" style="background:#ecfdf5;color:#059669;">
+					<div class="cv-trust-icon cv-trust-icon--green">
 						<svg class="cv:w-6 cv:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
 					</div>
 					<div>
@@ -185,7 +185,7 @@ $cartvai_trust_enabled = (bool) cartvai_theme_option( 'homepage_trust_enabled', 
 				</div>
 
 				<div class="cv-trust-card">
-					<div class="cv-trust-icon" style="background:#fff7ed;color:#ea580c;">
+					<div class="cv-trust-icon cv-trust-icon--orange">
 						<svg class="cv:w-6 cv:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
 					</div>
 					<div>
@@ -195,7 +195,7 @@ $cartvai_trust_enabled = (bool) cartvai_theme_option( 'homepage_trust_enabled', 
 				</div>
 
 				<div class="cv-trust-card">
-					<div class="cv-trust-icon" style="background:#f5f3ff;color:#7c3aed;">
+					<div class="cv-trust-icon cv-trust-icon--purple">
 						<svg class="cv:w-6 cv:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
 					</div>
 					<div>
@@ -256,7 +256,7 @@ $cartvai_trust_enabled = (bool) cartvai_theme_option( 'homepage_trust_enabled', 
 	<!-- ==================== 5. PROMOTIONAL DUO CALLOUT CARDS ==================== -->
 	<section class="cv-home-section cv:mb-12">
 		<div class="cv:grid cv:grid-cols-1 cv:md:grid-cols-2 cv:gap-6">
-			<div class="cv-promo-duo-card" style="background:linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%)">
+			<div class="cv-promo-duo-card cv-promo-duo-card--blue">
 				<p class="cv:text-xs cv:font-extrabold cv:text-blue-600 cv:uppercase cv:tracking-wider cv:mb-2"><?php esc_html_e( 'Limited Time Offer', 'cartvai' ); ?></p>
 				<h3 class="cv:text-xl cv:sm:text-2xl cv:font-black cv:text-gray-950 cv:leading-snug cv:mb-2"><?php esc_html_e( 'Save Big on Smart Tech & Audio', 'cartvai' ); ?></h3>
 				<p class="cv:text-sm cv:text-gray-600 cv:mb-6"><?php esc_html_e( 'Get up to 40% discount on noise-cancelling headphones and lifestyle wearables.', 'cartvai' ); ?></p>
@@ -265,7 +265,7 @@ $cartvai_trust_enabled = (bool) cartvai_theme_option( 'homepage_trust_enabled', 
 				</a>
 			</div>
 
-			<div class="cv-promo-duo-card" style="background:linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%)">
+			<div class="cv-promo-duo-card cv-promo-duo-card--red">
 				<p class="cv:text-xs cv:font-extrabold cv:text-red-600 cv:uppercase cv:tracking-wider cv:mb-2"><?php esc_html_e( 'Weekend Special', 'cartvai' ); ?></p>
 				<h3 class="cv:text-xl cv:sm:text-2xl cv:font-black cv:text-gray-950 cv:leading-snug cv:mb-2"><?php esc_html_e( 'New Arrivals & Best Picks', 'cartvai' ); ?></h3>
 				<p class="cv:text-sm cv:text-gray-600 cv:mb-6"><?php esc_html_e( 'Curated premium essentials direct to your doorstep with guaranteed fast express dispatch.', 'cartvai' ); ?></p>

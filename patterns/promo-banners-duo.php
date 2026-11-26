@@ -21,7 +21,7 @@ $cartvai_shop_url = function_exists( 'cartvai_get_shop_page_url' ) ? cartvai_get
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:group {"style":{"spacing":{"padding":{"top":"2rem","bottom":"2rem","left":"2rem","right":"2rem"}},"border":{"radius":"1.25rem"}},"className":"cv-promo-duo-card","layout":{"type":"default"}} -->
-			<div class="wp-block-group cv-promo-duo-card" style="border-radius:1.25rem;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem;background:linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%)">
+			<div class="wp-block-group cv-promo-duo-card cv-promo-duo-card--blue" style="border-radius:1.25rem;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.75rem","fontWeight":"800"}}} -->
 				<p style="font-size:0.75rem;font-weight:800;color:#2563eb;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.5rem"><?php esc_html_e( 'LIMITED TIME OFFER', 'cartvai' ); ?></p>
 				<!-- /wp:paragraph -->
@@ -46,7 +46,7 @@ $cartvai_shop_url = function_exists( 'cartvai_get_shop_page_url' ) ? cartvai_get
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:group {"style":{"spacing":{"padding":{"top":"2rem","bottom":"2rem","left":"2rem","right":"2rem"}},"border":{"radius":"1.25rem"}},"className":"cv-promo-duo-card","layout":{"type":"default"}} -->
-			<div class="wp-block-group cv-promo-duo-card" style="border-radius:1.25rem;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem;background:linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%)">
+			<div class="wp-block-group cv-promo-duo-card cv-promo-duo-card--red" style="border-radius:1.25rem;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
 				<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.75rem","fontWeight":"800"}}} -->
 				<p style="font-size:0.75rem;font-weight:800;color:#dc2626;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.5rem"><?php esc_html_e( 'WEEKEND SPECIAL', 'cartvai' ); ?></p>
 				<!-- /wp:paragraph -->
