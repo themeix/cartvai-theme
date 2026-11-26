@@ -77,7 +77,7 @@ $cartvai_has_primary   = has_nav_menu( 'primary' );
 				<svg class="cv:w-4 cv:h-4 cv:text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
 				</svg>
-				<span class="cartvai-mini-cart-count-badge cv:absolute cv:-top-1.5 cv:-right-2.5 cv:inline-flex cv:items-center cv:justify-center cv:min-w-[15px] cv:h-[15px] cv:px-1 cv:rounded-full cv:bg-amber-500 cv:text-slate-950 cv:text-[9px] cv:font-extrabold cv:leading-none" data-cartvai-mini-cart-count data-cartvai-count <?php echo $cartvai_cart_count > 0 ? '' : 'style="display:none;"'; ?>>
+				<span class="cartvai-mini-cart-count-badge<?php echo $cartvai_cart_count > 0 ? '' : ' cv-badge-hidden'; ?> cv:absolute cv:-top-1.5 cv:-right-2.5 cv:inline-flex cv:items-center cv:justify-center cv:min-w-[15px] cv:h-[15px] cv:px-1 cv:rounded-full cv:bg-amber-500 cv:text-slate-950 cv:text-[9px] cv:font-extrabold cv:leading-none" data-cartvai-mini-cart-count data-cartvai-count>
 					<?php echo esc_html( $cartvai_cart_count ); ?>
 				</span>
 			</div>

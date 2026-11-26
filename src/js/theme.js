@@ -109,7 +109,7 @@
 			badges.forEach(function (badge) {
 				badge.textContent = intCount;
 				if (intCount > 0) {
-					badge.style.display = 'inline-flex';
+					badge.classList.remove('cv-badge-hidden');
 					badge.removeAttribute('hidden');
 					// Trigger pop animation
 					badge.classList.remove('cv-badge-pop');
@@ -117,7 +117,7 @@
 					void badge.offsetWidth;
 					badge.classList.add('cv-badge-pop');
 				} else {
-					badge.style.display = 'none';
+					badge.classList.add('cv-badge-hidden');
 					badge.setAttribute('hidden', 'hidden');
 				}
 			});

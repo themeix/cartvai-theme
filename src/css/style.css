@@ -312,12 +312,19 @@ nav[aria-label="Breadcrumb"] a:hover {
   border-bottom: 1px solid var(--cv-main-bar-border, rgba(255, 255, 255, 0.08));
 }
 
-.cv-megastore-brand {
+.cv-megastore-brand,
+.cv-megastore-title,
+.cv-megastore-action {
   color: var(--cv-main-bar-text, #ffffff) !important;
 }
 
-.cv-megastore-action {
-  color: var(--cv-main-bar-text, #ffffff) !important;
+.cv-megastore-tagline {
+  color: var(--cv-main-bar-tagline, #fcd34d) !important;
+}
+
+/* Cart count badge hidden state (toggled by PHP when cart is empty) */
+.cartvai-mini-cart-count-badge.cv-badge-hidden {
+  display: none !important;
 }
 
 .cv-megastore-search-btn {

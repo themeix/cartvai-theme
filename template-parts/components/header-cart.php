@@ -22,7 +22,7 @@ $cartvai_cart_url   = home_url( '/cart/' );
 			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
 		</svg>
 		<span class="cv:hidden cv:sm:inline"><?php esc_html_e( 'Cart', 'cartvai' ); ?></span>
-		<span class="cartvai-mini-cart-count-badge cv:inline-flex cv:items-center cv:justify-center cv:min-w-5 cv:h-5 cv:px-1.5 cv:rounded-full cv:bg-primary cv:text-white cv:text-xs cv:font-bold cv:transition-all" data-cartvai-mini-cart-count data-cartvai-count <?php echo $cartvai_cart_count > 0 ? '' : 'style="display:none;"'; ?>>
+		<span class="cartvai-mini-cart-count-badge<?php echo $cartvai_cart_count > 0 ? '' : ' cv-badge-hidden'; ?> cv:inline-flex cv:items-center cv:justify-center cv:min-w-5 cv:h-5 cv:px-1.5 cv:rounded-full cv:bg-primary cv:text-white cv:text-xs cv:font-bold cv:transition-all" data-cartvai-mini-cart-count data-cartvai-count>
 			<?php echo esc_html( $cartvai_cart_count ); ?>
 		</span>
 	</button>
