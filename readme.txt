@@ -1,0 +1,77 @@
+=== Cartvai ===
+Contributors: cartvai
+Tags: e-commerce, custom-colors, custom-menu, featured-images, full-width-template, grid-layout, block-styles, custom-header, custom-background
+Requires at least: 6.2
+Tested up to: 6.7
+Stable tag: 1.2.0
+Requires PHP: 7.4
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+A modern, high-performance base ecommerce theme built specifically for Cartvai with a hybrid classic architecture and Tailwind CSS v4.
+
+== Description ==
+
+Cartvai is a fast, clean, and extensible WordPress theme tailored for Cartvai Ecommerce stores. It features a lightweight hybrid classic architecture, accessible navigation dropdowns, responsive mobile navigation drawers, and customizable header and footer layouts.
+
+== Installation ==
+
+1. In your WordPress admin, go to Appearance > Themes and click "Add New".
+2. Click "Upload Theme" and select the `cartvai-theme.zip` file.
+3. Click "Install Now" and then "Activate".
+4. Navigate to Appearance > Customize and open the "Cartvai Theme" panel to customize your header, footer, homepage, and colors.
+
+== Frequently Asked Questions ==
+
+= Does Cartvai require WooCommerce? =
+No. Cartvai is designed natively for the Cartvai Ecommerce platform.
+
+= Does it support Gutenberg blocks and block patterns? =
+Yes. Cartvai provides block styles, block patterns, and editor styles matching frontend typography.
+
+== Privacy Policy ==
+
+Cartvai does not track users, collect personal data, make unsolicited external requests, or set third-party tracking cookies by default. All settings and options are stored locally within the WordPress database.
+
+== Changelog ==
+
+= 1.2.0 =
+* Removed the combined "Complete Homepage" block pattern; build pages from the focused per-section patterns instead (hero, trust strip, categories, top sellers, promos, testimonials).
+* All theme settings moved to the WordPress Customizer under the "Cartvai Theme" panel (Appearance > Customize). The separate Theme Settings admin page was removed; previously saved settings are migrated automatically.
+* Removed theme-generated SEO meta description output (plugin territory).
+* Removed the fake newsletter subscription form from the ecommerce footer; use a newsletter plugin or the Footer Column 4 widget area instead.
+* Removed direct shortcode usage from theme files and block patterns; sections now render via the Cartvai Ecommerce plugin template API directly.
+* All block pattern text is now translatable and escaped.
+* Prefixed all template-scope variables with the cartvai_ prefix.
+
+= 1.0.0 =
+* Initial public release with hybrid classic theme foundation and Cartvai rendering pipeline.
+
+== Copyright ==
+
+Cartvai, (C) 2026 Cartvai
+Cartvai is distributed under the terms of the GNU GPL.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+== Resources & Bundled Assets ==
+
+All code, styles, and assets are licensed under GPLv2 or later, or a compatible license:
+
+* Inter Font
+  Author: Rasmus Andersson
+  Source: https://fonts.google.com/specimen/Inter
+  License: SIL Open Font License, Version 1.1 (https://scripts.sil.org/OFL)
+
+* Heroicons & SVG Icons
+  Author: Tailwind Labs
+  Source: https://heroicons.com/
+  License: MIT License (https://opensource.org/licenses/MIT)
