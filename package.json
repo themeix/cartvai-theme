@@ -1,6 +1,6 @@
 {
   "name": "cartvai-theme",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Base ecommerce theme for Cartvai plugin powered by Tailwind CSS v4",
   "scripts": {
     "dev": "vite",
